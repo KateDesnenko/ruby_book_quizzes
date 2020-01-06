@@ -20,5 +20,5 @@ class User
 end
 
 user = User.new('John', 'McClane', 'Detective')
-puts(user.fio)
-puts(user.profession)
+puts user.fio
+puts user.profession
